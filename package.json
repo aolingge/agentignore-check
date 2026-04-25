@@ -1,6 +1,6 @@
 {
   "name": "agentignore-check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check whether a repo has an .agentignore-style file to keep AI agents away from secrets and noisy files.",
   "type": "module",
   "bin": {
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/aolingge/agentignore-check/issues"
   },
-  "homepage": "https://github.com/aolingge/agentignore-check"
+  "homepage": "https://github.com/aolingge/agentignore-check",
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
 }

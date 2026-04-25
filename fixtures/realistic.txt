@@ -1,0 +1,11 @@
+.env
+.env.local
+node_modules/
+dist/
+*.log
+private/
+browser-profile/
+
+# Realistic extension
+
+This fixture is safe to share and contains no real secrets.
