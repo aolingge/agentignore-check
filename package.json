@@ -1,0 +1,31 @@
+{
+  "name": "agentignore-check",
+  "version": "0.1.0",
+  "description": "Check whether a repo has an .agentignore-style file to keep AI agents away from secrets and noisy files.",
+  "type": "module",
+  "bin": {
+    "agentignore-check": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "keywords": [
+    "agentignore",
+    "ai-agent",
+    "privacy",
+    "secret-scanning",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/agentignore-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/agentignore-check/issues"
+  },
+  "homepage": "https://github.com/aolingge/agentignore-check"
+}
